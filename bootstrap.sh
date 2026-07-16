@@ -10,11 +10,10 @@ sudo apt update
 
 sudo apt install -y \
     git \
-    curl \
     nfs-common
 
 git clone "$REPO"
 
-cd cm.git
+cd cm
 
-./bootstrap-local.sh
+./restore.sh
