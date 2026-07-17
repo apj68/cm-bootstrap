@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO="git@github.com:apj/cm.git"
+REPO="git@github.com:apj68/cm.git"
 BACKUP_HOST="tailinsula"
 BACKUP_SHARE="/volume1/NetBackup"
 MOUNT="/mnt/netbackup"
